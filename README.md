@@ -11,6 +11,16 @@ This repository is the **sanitized open-source edition**: it contains no persona
 API keys, tokens, device serial numbers, or private business data. Every key is applied for and
 entered by the user.
 
+**Status:** v3.0.1, early-stage reference implementation. Android 8.0+, `arm64-v8a`, sideload
+only. No account, no project cloud, no bundled keys.
+
+## Quick Start
+
+1. Install JDK 8+, Android SDK 34, and download the pinned Codex engine (section 3).
+2. Run `./build_apk.sh`.
+3. `adb install -r build/StereoAI-public.apk`.
+4. Open **Settings → Models & Keys** and add your own API key.
+
 ## Why We Built This: No Capital Control Over Personal Agents
 
 **I refuse to live in an era where personal agents are controlled by capital.**
