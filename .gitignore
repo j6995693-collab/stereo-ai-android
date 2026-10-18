@@ -1,0 +1,29 @@
+# 构建产物
+build/
+*.apk
+*.aab
+*.idsig
+
+# 签名与密钥（绝不提交）
+*.keystore
+*.jks
+*.p12
+*.pem
+*.key
+keystore.properties
+
+# 引擎二进制
+*.so
+_codexbin/
+
+# 本地 SDK / JDK
+sdk/
+jdk/
+android-sdk/
+local.properties
+
+# 运行时数据与备份
+*.bak
+*.bak.*
+*.log
+.DS_Store
